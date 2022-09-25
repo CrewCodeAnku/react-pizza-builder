@@ -1,0 +1,33 @@
+.signindiv{
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.formsignin {
+    width: 100%;
+    max-width: 450px;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  .formsignin .checkbox {
+    font-weight: 400;
+  }
+  .formsignin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .formsignin .form-control:focus {
+    z-index: 2;
+  }

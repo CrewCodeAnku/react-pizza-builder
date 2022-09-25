@@ -1,0 +1,1 @@
+{"version":3,"sources":["Pagenotfound.module.scss"],"names":[],"mappings":"AAAA,8BACI,0BAA0B,CAC1B,eAAe","file":"16.18c78995.chunk.css","sourcesContent":[".pagewrap{\n    height:calc(100vh - 116px);\n    overflow:hidden;\n}"]}

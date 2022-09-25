@@ -1,0 +1,67 @@
+header.masthead {
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(1rem + 72px);
+    padding-bottom: 1rem;
+    background: linear-gradient(0deg, #c38358 0%, #dfc57e 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    .mastheadcontent {
+      z-index: 1;
+      position: relative;
+      .mastheadheading {
+        font-size: 4rem;
+      }
+      .mastheadsubheading {
+        font-size: 2rem;
+      }
+    }
+    .bgcircle {
+      z-index: 0;
+      position: absolute;
+      border-radius: 100%;
+      background: linear-gradient(0deg, #fcfc8f 0%, #c38358 100%);
+    }
+    .bgcircle1 {
+      height: 90rem;
+      width: 90rem;
+      bottom: -55rem;
+      left: -55rem;
+    }
+    .bgcircle2 {
+      height: 50rem;
+      width: 50rem;
+      top: -25rem;
+      right: -25rem;
+    }
+    .bgcircle3 {
+      height: 20rem;
+      width: 20rem;
+      bottom: -10rem;
+      right: 5%;
+    }
+    .bgcircle4 {
+      height: 30rem;
+      width: 30rem;
+      top: -5rem;
+      right: 35%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    header.masthead {
+      padding-top: calc(5rem + 55px);
+      padding-bottom: 5rem;
+      .mastheadcontent {
+        .mastheadheading {
+          font-size: 5rem;
+        }
+        .mastheadsubheading {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+  

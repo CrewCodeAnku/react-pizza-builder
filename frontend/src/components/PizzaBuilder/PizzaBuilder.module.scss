@@ -1,0 +1,171 @@
+ .Pizza {
+    width: 300px;
+    height: 300px;
+  
+    position: relative;
+  
+    background-color: #c38358;
+    margin: 0 auto 30px;
+    padding: 15px;
+    border-radius: 100%;
+    box-sizing: border-box;
+  }
+  
+  .PizzaCheese {
+    height:300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    margin: 0px;
+  }
+  .PizzaIngredients {
+    position: relative;
+    width: 270px;
+    height: 270px;
+  
+    border-radius: 100%;
+  }
+  
+  .PizzaPreview {
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  .PizzaPrice {
+    display: inline-block;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #bd7f21;
+    color: white;
+    font-weight: bold;
+    min-width: 200px;
+  }
+  
+  .PizzaControls {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    background-color:#c38358;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  
+  .PizzaOrder {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    background-color:#c38358;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  .PizzaOrder button {
+    background: #fcfc8f;
+    color:#c38358;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+  }
+  .PizzaOrder button:hover {
+    opacity: .8;
+    color: white;
+  }
+  .PizzaOrder button:disabled {
+    opacity: .5;
+    color: white;
+  }
+
+  .PizzaControl {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+  }
+  
+  .PizzaControl button {
+    border: 0;
+    margin: 0 10px;
+    background-color: rgba(255, 255, 255, .3);
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+  }
+  /*.PizzaControl button::before {
+    display: block;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 1px;
+  }*/
+  .PizzaControl button:focus {
+    outline: none;
+  }
+  .PizzaControl button:hover {
+    background-color: rgba(255, 255, 255, .5);
+  }
+  .PizzaControl button:active {
+    background-color: rgba(255, 255, 255, .7);
+  }
+  .PizzaControl button:disabled {
+    opacity: .2;
+  }
+
+  .Less{
+      color:#fff
+  }
+
+  .More{
+     color:#fff
+  }
+  
+  /*.Less::before {
+    content: '-';
+  }
+  .More::before {
+    content: '+';
+  }*/
+
+
+  .PizzaControls {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    background-color:#c38358;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  
+  .PizzaOrder {
+    width: 100%;
+    text-align: center;
+  }
+  .PizzaOrder button {
+    background:#fcfc8f;
+    color:#000;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+  }
+  .PizzaOrder button:hover {
+    opacity: .8;
+    color:#000;
+  }
+  .PizzaOrder button:disabled {
+    opacity: .5;
+    color:#000;
+  }
+  
+
+  @media (min-width: 500px) {
+    .PizzaPreview {
+      margin: 0 30px;
+    }
+  }

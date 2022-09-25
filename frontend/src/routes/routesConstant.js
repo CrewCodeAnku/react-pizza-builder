@@ -1,0 +1,13 @@
+export const SIGN_UP       = '/signup';
+export const SIGN_IN       = '/signin';
+export const DASHBOARD     = '/dashboard';
+export const VERIFYEMAIL   = '/verify/:email/:token';
+export const RESETPASSWORD = '/reset/:email/:token';
+export const FORGETPASS    = '/forgetpass';
+export const RESETPASS     = '/reset/:email/:token';
+export const HOME          = '/'
+export const PROFILE       = '/profile';
+export const PHOTOBOOTH    = '/photobooth';
+export const TAKEPHOTO     = '/photobooth/take';
+export const PIZZABUILDER  = '/pizzabuilder';
+export const CHECKOUT      = '/checkout';
